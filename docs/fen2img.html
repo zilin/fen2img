@@ -54,14 +54,17 @@ description: "convert fen string to image."
 <div class="output_markdown rendered_html output_subarea ">
 <h4 id="fen2img" class="doc_header"><code>fen2img</code><a href="https://github.com/zilin/fen2img/tree/master/fen2img/fen2img.py#L11" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>fen2img</code>(<strong><code>fen</code></strong>, <strong><code>board_size</code></strong>=<em><code>400</code></em>, <strong><code>piece_style</code></strong>=<em><code>'merida'</code></em>, <strong><code>theme</code></strong>=<em><code>'brown'</code></em>)</p>
 </blockquote>
-<p>convert fen string to image.</p>
-<p>fen         -- a FEN string
-board_size  -- the width of the chess board
-piece_style -- support those styles: 'merida', 'case', 'wikipedia',
-               'alpha', 'uscf', 'condal', 'maya', 'leipzig'
-theme       -- support those themes: 'chesscom', 'brown', 'falken',
-               'green', 'zeit', 'informator', 'sportverlag', 'beyer',
-               'blue'</p>
+<p>Convert fen string to image.</p>
+<p>Args:
+  fen         -- a FEN string.
+  board_size  -- the width of the chess board.
+  piece_style -- support those styles: 'merida', 'case', 'wikipedia',
+                 'alpha', 'uscf', 'condal', 'maya', 'leipzig'.
+  theme       -- support those themes: 'chesscom', 'brown', 'falken',
+                 'green', 'zeit', 'informator', 'sportverlag', 'beyer',
+                 'blue'.
+Returns:
+  PIL.Image</p>
 
 </div>
 
