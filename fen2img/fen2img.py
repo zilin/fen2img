@@ -20,7 +20,7 @@ def fen2img(fen, board_size=400, board_style='brown', boards_path='./boards',
       - fen:         a FEN string.cc
       - board_size:  the width of the chess board.
       - board_style: supported board styles: 'chesscom', 'brown', 'falken', 'green', 'zeit', 'informator', 'sportverlag', 'beyer', 'blue'.
-      - boards_path: path storing theme SVG files.
+      - boards_path: path storing board style SVG files.
       - piece_style: supported piece styles: 'merida', 'case', 'wikipedia', 'alpha', 'uscf', 'condal', 'maya', 'leipzig'.
       - pieces_path: path storing piece style PNG files.
 
